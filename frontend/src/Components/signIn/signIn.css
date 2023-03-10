@@ -1,0 +1,69 @@
+.bt__signIn {
+	height: 50vh;
+	width: 50vw;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	border-radius: 10px;
+	box-shadow: 2px 2px 2px #333;
+
+	position: absolute;
+	top: 25%;
+	left: 25%;
+	background-color: #f4f6f7;
+}
+.bt__signIn h1 {
+	text-align: center;
+	flex: 0.25;
+	margin: 2rem;
+}
+
+.bt__signIn form {
+	flex: 1;
+	display: grid;
+	grid-template-columns: 20% 80%;
+	column-gap: 10px;
+	row-gap: 10px;
+}
+
+.bt__signIn input {
+	border-radius: 5px;
+	border: none;
+	width: 85%;
+	outline: none;
+	padding-left: 20px;
+	max-height: 46px;
+	background-color: #d3d3d3;
+}
+.bt__signIn label {
+	text-align: right;
+	font-size: 1rem;
+	padding-top: 0.6rem;
+}
+
+.bt__signIn-signUp {
+	flex: 0.5;
+}
+
+.bt__signIn button {
+	grid-column: 2;
+	width: 50%;
+	max-height: 46px;
+	border: none;
+	background-color: gray;
+	color: #fff;
+	border-radius: 5px;
+	font-size: 1.5rem;
+	margin: 1rem;
+	margin-right: auto;
+	cursor: pointer;
+}
+
+.bt__signIn-signUp {
+	grid-column: 2;
+	margin-right: auto;
+}
+.bt__signIn-signUp a {
+	/* text-decoration: none; */
+	color: black;
+}

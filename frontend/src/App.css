@@ -1,0 +1,20 @@
+.App {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	height: 100vh;
+	background-color: bisque;
+}
+.bt__container {
+	flex: 0.85;
+	width: 100vw;
+	height: 100vh;
+}
+.section__margin {
+	margin: 4rem;
+}
+.bugForm {
+	height: 85vh;
+	width: 80%;
+	margin: 4rem auto;
+}

@@ -1,0 +1,73 @@
+.bt__signup {
+	margin: 4rem auto;
+	width: 70%;
+	height: 90%;
+
+	background-color: #f4f6f7;
+	box-shadow: 2px 2px 2px #333;
+	border-radius: 10px;
+}
+.bt__signup h1 {
+	text-align: center;
+	margin: 1rem;
+}
+
+.bt__signup form {
+	height: 90%;
+	display: grid;
+	grid-template-columns: 20% 80%;
+	column-gap: 30px;
+	row-gap: 10px;
+}
+.bt__signup label {
+	text-align: right;
+	font-size: 1rem;
+	padding-top: 0.6rem;
+}
+
+.bt__signup input {
+	border-radius: 5px;
+	border: none;
+	width: 85%;
+	outline: none;
+	padding-left: 20px;
+	max-height: 46px;
+	background-color: #d3d3d3;
+}
+
+::-webkit-file-upload-button {
+	/* background: black; */
+	background-color: #d3d3d3;
+	color: #333;
+
+	padding: 1em;
+	font-size: 0.8rem;
+	margin: 0 1rem;
+	width: 40%;
+	height: 100%;
+	cursor: pointer;
+	border: none;
+	border-right: 1px solid #333;
+}
+
+.bt__signup button {
+	grid-column: 2;
+	width: 50%;
+	max-height: 46px;
+	border: none;
+	background-color: gray;
+	color: #fff;
+	border-radius: 5px;
+	font-size: 1.5rem;
+	margin: 1rem auto;
+	cursor: pointer;
+}
+
+.bt__signup-login {
+	grid-column: 2;
+	margin: 0 auto;
+}
+.bt__signup-login a {
+	/* text-decoration: none; */
+	color: black;
+}

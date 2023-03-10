@@ -1,0 +1,42 @@
+.bugcard__box {
+	background-color: #f4f6f7;
+	box-shadow: 2px 2px 2px lightgray;
+	text-align: center;
+	margin: 10px;
+	min-width: 275px;
+	min-height: 200px;
+	cursor: pointer;
+
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+.bugcard__box-heading {
+	margin: 1rem;
+	text-align: left;
+}
+
+.bugcard__box h4 {
+	width: 50%;
+	/* background-color: bisque; */
+	margin: 5px auto;
+	border-radius: 10px;
+}
+
+.bugcard__box-details {
+	display: flex;
+	justify-content: space-between;
+}
+.bugcard__box-rateing {
+	flex: 0.65;
+}
+.bugcard__box-details p {
+	flex: 1;
+	padding-top: 5px;
+	color: gray;
+}
+.bugcard__box:hover {
+	transition: all 0.3s;
+	transform: scale(1.05);
+}

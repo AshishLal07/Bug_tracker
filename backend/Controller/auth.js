@@ -1,6 +1,6 @@
 import bcryct from 'bcrypt';
 import Jwt from 'jsonwebtoken';
-import User from '../models/Users.js';
+import User from '../Models/Users.js';
 
 export const createUser = async (req, res) => {
 	try {

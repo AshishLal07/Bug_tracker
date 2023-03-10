@@ -1,7 +1,7 @@
 import express from 'express';
 import mongoose from 'mongoose';
 
-mongoose.connect('mongodb://localhost/tracker_development', {
+mongoose.connect('mongodb://127.0.0.1/tracker_development', {
 	useNewUrlParser: true,
 	useUnifiedTopology: true,
 });

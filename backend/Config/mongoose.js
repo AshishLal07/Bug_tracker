@@ -1,6 +1,6 @@
 import express from 'express';
 import mongoose from 'mongoose';
-
+mongoose.set('strictQuery', false);
 mongoose.connect('mongodb://127.0.0.1/tracker_development', {
 	useNewUrlParser: true,
 	useUnifiedTopology: true,
